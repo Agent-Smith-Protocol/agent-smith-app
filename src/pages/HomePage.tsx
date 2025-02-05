@@ -1,7 +1,11 @@
+import { ContentContainer } from '../layout/ContentContainer/ContentContainer.tsx';
+
 export const HomePage = () => {
   return (
-    <div>
-      I am home page
-    </div>
+    <main>
+      <ContentContainer>
+        hello
+      </ContentContainer>
+    </main>
   )
 }

@@ -1,5 +1,11 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-card-bg: #090F1D;
+  --color-card-bdr: #1E2939;
+  --color-card-foreground: #99A1AF;
+}
 
 html, body, #root {
   height: 100%;
@@ -9,9 +15,9 @@ body {
   font-family: "Inter", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  background-color: #020618;
+  background-color: #030712;
+  color: #99A1AF;
 }
-
 
 .app {
   width: 100%;
@@ -27,5 +33,6 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
+  padding: 50px 0;
   width: 100%;
 }
