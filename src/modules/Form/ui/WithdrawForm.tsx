@@ -32,7 +32,7 @@ export const WithdrawForm = (props: WithdrawFormProps) => {
         </label>
         {/*<p className="fieldset-label">Optional</p>*/}
       </fieldset>
-      <button type='submit' className='btn btn-soft btn-accent w-full'>Submit</button>
+      <button type='submit' className='btn btn-soft btn-accent w-full'>Request withdraw</button>
     </form>
   )
 }

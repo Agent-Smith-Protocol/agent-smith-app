@@ -13,7 +13,7 @@ export const FormContainer = () => {
         <button className={activeTab === 'deposit' ? 'btn-active grow btn btn-soft btn-success' : 'grow btn btn-soft btn-success'} onClick={() => setActiveTab('deposit')}>
           Deposit
         </button>
-        <button className={activeTab === 'withdraw' ? 'btn-active grow btn btn-soft btn-error' : 'grow btn btn-soft btn-error'} onClick={() => setActiveTab('withdraw')}>
+        <button className={activeTab === 'withdraw' ? 'btn-active grow btn btn-soft btn-warning' : 'grow btn btn-soft btn-warning'} onClick={() => setActiveTab('withdraw')}>
           Withdraw
         </button>
       </div>
