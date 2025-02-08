@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
 @import "tailwindcss";
-
-@theme {
-  --color-card-bg: #090F1D;
-  --color-card-bdr: #1E2939;
-  --color-card-foreground: #99A1AF;
+@plugin "daisyui" {
+  themes: dark --default;
 }
 
 html, body, #root {
@@ -15,8 +12,10 @@ body {
   font-family: "Inter", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  background-color: #030712;
-  color: #99A1AF;
+  /*background-color: #191E24;*/
+  background-color: #15191E;
+  color: #b8c2c6;
+  /*color: #ECF9FFl;*/
 }
 
 .app {
