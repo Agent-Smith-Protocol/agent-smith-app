@@ -1,6 +1,6 @@
 import { ContentContainer } from '../layout/ContentContainer/ContentContainer.tsx';
 import { Chart } from '../modules/Chart';
-import { Form } from '../modules/Form';
+import { FormContainer } from '../modules/Form';
 
 export const DashboardPage = () => {
   return (
@@ -32,7 +32,7 @@ export const DashboardPage = () => {
         </section>
 
         <section>
-          <Form/>
+          <FormContainer/>
         </section>
       </div>
     </main>
